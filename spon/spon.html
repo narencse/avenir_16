@@ -17,6 +17,7 @@
     <title>Avenir</title>
 
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+    <link href="w.css" rel="stylesheet">
 
   </head>
 
@@ -26,31 +27,35 @@
 	<div class="row">
 	
 		
-		<img src="01.jpg" class="col-md-3 col-xs-6 column">
-		<img src="02.jpg" class="col-md-3 col-xs-6 column">
-		<img src="03.jpg" class="col-md-3 col-xs-6 column">
-		<img src="04.jpg" class="col-md-3 col-xs-6 column">
-		<img src="05.jpg" class="col-md-3 col-xs-6 column">
-		<img src="06.jpg" class="col-md-3 col-xs-6 column">
-		<img src="07.jpg" class="col-md-3 col-xs-6 column">
-		<img src="08.jpg" class="col-md-3 col-xs-6 column">
-		<img src="09.jpg" class="col-md-3 col-xs-6 column">
-		<img src="10.jpg" class="col-md-3 col-xs-6 column">
-		<img src="01.jpg" class="col-md-3 col-xs-6 column">
-		<img src="02.jpg" class="col-md-3 col-xs-6 column">
-		<img src="03.jpg" class="col-md-3 col-xs-6 column">
-		<img src="04.jpg" class="col-md-3 col-xs-6 column">
-		<img src="05.jpg" class="col-md-3 col-xs-6 column">
-		<img src="06.jpg" class="col-md-3 col-xs-6 column">
-		<img src="07.jpg" class="col-md-3 col-xs-6 column">
-		<img src="08.jpg" class="col-md-3 col-xs-6 column">
-		<img src="09.jpg" class="col-md-3 col-xs-6 column">
-		<img src="10.jpg" class="col-md-3 col-xs-6 column">
+		<img src="01.jpg" class="col-md-6 col-xs-12 column wow slideInLeft">
+		<img src="02.jpg" class="col-md-6 col-xs-12 column wow slideInLeft">
+		<img src="03.jpg" class="col-md-6 col-xs-12 column wow slideInLeft">
+		<img src="04.jpg" class="col-md-6 col-xs-12 column wow slideInLeft">
+		<img src="05.jpg" class="col-md-6 col-xs-12 column wow slideInLeft">
+		<img src="06.jpg" class="col-md-6 col-xs-12 column wow slideInLeft">
+		<img src="07.jpg" class="col-md-6 col-xs-12 column wow slideInLeft">
+		<img src="08.jpg" class="col-md-6 col-xs-12 column wow slideInLeft">
+		<img src="09.jpg" class="col-md-6 col-xs-12 column wow slideInLeft">
+		<img src="10.jpg" class="col-md-6 col-xs-12 column wow slideInLeft">
 		
 		
 	</div>
 		
 	</div>
+	<script src="w.js" ></script>
 
+	<script>
+	
+	wow = new WOW(
+    {
+      boxClass:     'wow',      
+      animateClass: 'animated', 
+      offset:       95,          
+      mobile:       true,       
+      live:         true       
+    }
+  )
+  wow.init();
+	</script>
   </body>
 </html>
