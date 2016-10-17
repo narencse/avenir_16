@@ -1,12 +1,12 @@
 
 [
  -{
-    id: "1",
-    Name: "Naren",
+    img_list:"
+    opList: "Mobiles",
   },
  -{
-    id:"2",
-    Name:"Singh",
+    img_list:"",
+    opList:"Ac",
   }
 ]
       
